@@ -10823,13 +10823,13 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://thumbs.dreamstime.com/b/cycling-cartoon-road-cyclist-riding-bike-side-view-isolated-illustration-flat-design-134048355.jpg");
+  background: url("../assets/img/bike.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-register-image {
-  background: url("https://media.gettyimages.com/vectors/drawing-of-a-man-on-a-bicycle-cycling-in-the-city-vector-id156644396");
+  background: url("../assets/img/bike-reg.jpg");
   background-position: center;
   background-size: cover;
 }

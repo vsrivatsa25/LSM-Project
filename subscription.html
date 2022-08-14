@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/subscription.css" rel="stylesheet">
 
 </head>
 
@@ -33,7 +34,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                 <div class="sidebar-brand-icon">
-                    <img src="assets/img/logo3.png" alt="" height="50"  />
+                    <img src="assets/img/logo3.png" alt="" style="height: 50px;"  />
                 </div>
                 <!-- <div class="sidebar-brand-text mx-3">Pedals</div> -->
             </a>
@@ -62,13 +63,13 @@
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item active">
-                <a class="nav-link" href="tables.html">
+            <li class="nav-item">
+                <a class="nav-link" href="rides.html">
                     <i class="fas fa-fw fa-history"></i>
                     <span>Rides History</span></a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="subscription.html">
                     <i class="fas fa-fw fa-money-check"></i>
                     <span>My Subscription</span></a>
@@ -247,65 +248,75 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Ride History</h1>
-                    <p class="mb-4">Details about your last few rides on Pedals</p>
-
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Recent rides</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>S.No</th>
-                                            <th>Duration</th>
-                                            <th>Origin</th>
-                                            <th>Destination</th>
-                                            <th>Date</th>
-                                            <th>Pedals ID</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>13:44</td>
-                                            <td>SJT</td>
-                                            <td>MB</td>
-                                            <td>2020/01/21</td>
-                                            <td>#123123</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>5:14</td>
-                                            <td>SJT</td>
-                                            <td>SMV</td>
-                                            <td>2020/01/15</td>
-                                            <td>#121013</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>5:44</td>
-                                            <td>TT</td>
-                                            <td>Gate III</td>
-                                            <td>2020/01/14</td>
-                                            <td>#120177</td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>18:44</td>
-                                            <td>MH - Q Block</td>
-                                            <td>Main Gate</td>
-                                            <td>2020/01/11</td>
-                                            <td>#118099</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    <section class="pricing-section">
+                        <div class="container">
+                            <div class="sec-title text-center">
+                                <span class="title">Subscription</span>
+                                <h2>Choose a Monthly Subscription Plan</h2>
+                            </div>
+                
+                            <div class="outer-box">
+                                <div class="row">
+                                    <!-- Pricing Block -->
+                                    <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                                        <div class="inner-box">
+                                            <div class="icon-box">
+                                                <div class="icon-outer"><i class="fas fa-biking"></i></div>
+                                            </div>
+                                            <div class="price-box">
+                                                <div class="title"> Bronze Plan</div>
+                                                <h4 class="price">₹480</h4>
+                                            </div>
+                                            <ul class="features">
+                                                <li class="true">60 keys</li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!-- Pricing Block -->
+                                    <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                                        <div class="inner-box">
+                                            <div class="icon-box">
+                                                <div class="icon-outer"><i class="fas fa-biking"></i></div>
+                                            </div>
+                                            <div class="price-box">
+                                                <div class="title">Silver Plan</div>
+                                                <h4 class="price">₹640</h4>
+                                            </div>
+                                            <ul class="features">
+                                                <li class="true">80 keys</li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!-- Pricing Block -->
+                                    <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                                        <div class="inner-box">
+                                            <div class="icon-box">
+                                                <div class="icon-outer"><i class="fas fa-biking"></i></div>
+                                            </div>
+                                            <div class="price-box">
+                                                <div class="title">Gold Plan</div>
+                                                <h4 class="price">₹800</h4>
+                                            </div>
+                                            <ul class="features">
+                                                <li class="true">100 keys</li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
                 </div>
                 <!-- /.container-fluid -->
